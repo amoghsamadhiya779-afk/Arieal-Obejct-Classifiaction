@@ -1,0 +1,10 @@
+README.md
+setup.py
+aerial_classification.egg-info/PKG-INFO
+aerial_classification.egg-info/SOURCES.txt
+aerial_classification.egg-info/dependency_links.txt
+aerial_classification.egg-info/requires.txt
+aerial_classification.egg-info/top_level.txt
+app/__init__.py
+src/__init__.py
+valid/__init__.py
