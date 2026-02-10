@@ -1,0 +1,55 @@
+Python
+
+pycache/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+Virtual Environments
+
+venv/
+env/
+.env
+.venv
+
+Jupyter Notebooks
+
+.ipynb_checkpoints
+
+OS specific files
+
+.DS_Store
+Thumbs.db
+
+Project Specific - Large Data & Models
+
+We ignore actual data to keep the repo light, but you can track the folder structure
+
+data/classification/train/
+data/classification/val/
+data/classification/test/
+data/object_detection/images/
+data/object_detection/labels/
+data/raw/
+data/processed/
+
+Ignore large trained models
+
+models/.h5
+models/.pt
+models/*.keras
+models/yolov8_aerial_detection/
+
+Ultralytics / YOLO training logs
+
+runs/
+wandb/
+
+IDE settings
+
+.vscode/
+.idea/
